@@ -10,4 +10,4 @@ app.get('/', function (req, res) {
   res.sendFile('index.html', options)
 })
  
-//app.listen(3000)
+app.listen(process.env.PORT || 5000);
