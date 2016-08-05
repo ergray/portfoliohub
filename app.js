@@ -6,8 +6,8 @@ app.get('/', function (req, res) {
 	var options = {
 		root: __dirname
 	}
-	
+
   res.sendFile('index.html', options)
 })
  
-app.listen(3000)
+//app.listen(3000)
